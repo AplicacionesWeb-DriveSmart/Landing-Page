@@ -1,12 +1,12 @@
   body {
     font-family: Montserrat;
   }
-
+  
   .nav-container {
     background-color: #243153;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   }
-
+  
   .box-home-description {
     position: relative;
   }
@@ -16,7 +16,7 @@
     grid-template-columns: 1fr 1fr;
     background-color: #ffd147;
   }
-
+  
   .box-company-description {
     padding: 30px 30px;
     background-color: rgb(255, 255, 255);
@@ -25,7 +25,7 @@
     gap: 10px;
     align-items: center;
   }
-
+  
   .box-company-container {
     flex: 1;
     min-width: 0;
@@ -36,12 +36,12 @@
     grid-template-columns: 250px 250px;
     align-items: center;
   }
-
+  
   #company-image {
     border-radius: 12px;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   }
-
+  
   .box-company-team {
     padding: 50px 50px;
     display: flex;
@@ -50,23 +50,23 @@
     align-items: center;
     gap: 10px;
   }
-
+  
   .box-company-team-developer {
     text-align: center;
   }
-
+  
   .team-item {
     text-align: center;
     display: flex;
     flex-direction: column;
     gap: 20px;
   }
-
+  
   #item-image {
     border-radius: 16px;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   }
-
+  
   #button-begin {
     position: fixed;
     bottom: 40px;
@@ -78,13 +78,13 @@
     border-radius: 16px;
     cursor: pointer;
   }
-
+  
   #home-image {
     width: 100%;
     height: 700px;
     opacity: 0.7;
   }
-
+  
   .fond-image {
     position: absolute;
     top: 10%;
@@ -96,25 +96,22 @@
     border-radius: 16px;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   }
-.fond-image-content {
+  
+  .fond-image-content {
     display: flex;
-    /* Hace que las imágenes se muestren en una línea horizontal /
     animation: slide 6s linear infinite;
-    / Anima el deslizamiento durante 6 segundos y se repite infinitamente /
   }
-
+  
   @keyframes slide {
     0% {
       transform: translateX(0);
-      / Comienza desde la posición inicial /
     }
-
+  
     100% {
       transform: translateX(-145%);
-      / Desliza las imágenes hacia la izquierda */
     }
   }
-
+  
   .box-features-container {
     padding: 60px 80px;
     background-color: white ;
@@ -126,26 +123,26 @@
     border-style: solid;
     border-color: black;
   }
-
+  
   .box-feature {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 10px;
   }
-
+  
   .feature-image {
     border-radius: 16px;
     box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.3);
   }
-
+  
   .box-question-container {
     display: grid;
     place-items: center;
     grid-template-columns: 100%;
     gap: 20px;
   }
-
+  
   .box-question-item {
     background-color: white;
     color: black;
@@ -159,12 +156,12 @@
     width: 70%;
     gap: 10px;
   }
-
+  
   .box-question-item:hover {
     background-color: #e1f0ff;
   }
 
-@media only screen and (max-width: 768px) {
+  @media only screen and (max-width: 768px) {
     .box-company-description {
         padding: 20px;
     }
