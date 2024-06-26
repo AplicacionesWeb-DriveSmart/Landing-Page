@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900&display=swap"
+      rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="images/Logo_Fondo.png">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"></script>
+    <title>Car Help</title>
+  </head>
+
+  <body>
+      <div class="nav-container">
+        <header class="d-flex flex-wrap justify-content-center align-items-center px-5 py-3">
+          <a href="./indexes.html"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-light text-decoration-none gap-3">
+            <img src="images/Logo_CarHelp.png" width="80px" alt="Logo_CarHelp">
+            <span class="fs-2">Car Help</span>
+          </a>
+          <ul class="nav nav-pills">
+            <li class="nav-item"><a href="#Características" class="nav-link text-light">Características</a></li>
+            <li class="nav-item"><a href="#FAQs" class="nav-link text-light">Preguntas Frecuentes</a></li>
+            <li class="nav-item"><a href="#AcercaDe" class="nav-link text-light">Acerca de</a></li>            
+            <li class="nav-item"><a href="../index.html" class="nav-link text-light">ES/EN</a></li>
+          </ul>
+        </header>
+      </div>
+
+    <section id="Inicio" class="box-home">
+      <div class="box-home-description">
+        <img id="home-image" src="images/Fondo3.jpg" alt="Fondo">
+        <div class="fond-image">
+          <div class="fond-image-content">
+            <img src="images/repuestos.jpg" alt="Imagen 1">
+            <img src="images/kilometraje.jpg" alt="Imagen 2">
+            <img src="images/revision.jpg" alt="Imagen 3">
+            <img src="images/repuestos.jpg" alt="Imagen 4">
+            <img src="images/kilometraje.jpg" alt="Imagen 5">
+            <img src="images/revision.jpg" alt="Imagen 6">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="Características">
+      <div class="box-features-container">
+        <h1 style="text-align: center;">Las características de nuestra aplicación son</h1>
+        <div style="display: grid; justify-content: center; grid-template-columns:250px 250px 250px;gap:80px;text-align: center;">
+          <div class="box-feature">
+            <h5>Sistema de citas</h5>
+            <img class="feature-image" src="images/Citas.jpg" width="200px" alt="Citas">
+          </div>
+          <div class="box-feature">
+            <h5>Comunicación directa con un técnico</h5>
+            <img class="feature-image" src="images/Comunicacion.jpeg" width="200px" alt="Comunicación">
+          </div>
+          <div class="box-feature">
+            <h5>Presupuestos y cotizaciones anticipadas</h5>
+            <img class="feature-image" src="images/Cotizacion.png" width="200px" alt="Cotizacion">
+          </div>
+          <div class="box-feature">
+            <h5>Botón de acción rápida</h5>
+            <img class="feature-image" src="images/Emergencia.png" width="200px" alt="Emergencia">
+          </div>        
+          <div class="box-feature">
+            <h5>Pagos en línea</h5>
+            <img class="feature-image" src="images/Pago.jpg" width="200px" alt="Pagos">
+          </div>
+          <div class="box-feature">
+            <h5>Historial de servicios brindados</h5>
+            <img class="feature-image" src="images/Historial.png" width="200px" alt="Historial">
+          </div>
+          <div class="box-feature">
+            <h5>Registro de varios vehículos</h5>
+            <img class="feature-image" src="images/Registro.png" width="200px" alt="Registro">
+          </div>
+          <div class="box-feature">
+            <h5>Seguimiento de servicios</h5>
+            <img class="feature-image" src="images/Seguimiento.jpg" width="200px" alt="Seguimiento">
+          </div>
+          <div class="box-feature">
+            <h5>Feedback de cada servicio</h5>
+            <img class="feature-image" src="images/Feedback.jpg" width="200px" alt="Feedback">
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <section id="FAQs">
+      <div style="display: flex; flex-direction: column;gap: 30px; padding: 60px 60px; border-bottom: 2px  solid black;background-color: #53B598;color: white;">
+        <h1 class="d-flex flex-wrap justify-content-center align-items-center" style="text-align: center;">Preguntas y respuestas frecuentes</h1>
+        <div class="box-question-container">
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer1" role="text"
+              aria-expanded="false" class="change-color">
+              1. ¿Qué es Car Help?
+            </a>
+            <p id="answer1" class="collapse">
+              Somos una plataforma web cuyo objetivo es optimizar las distintas operaciones que realizan las automotrices a diario, 
+              como la gestión y comunicación con sus clientes, creación de cotizaciones, entre otras funcionalidades; beneficiando tanto 
+              a los clientes como automotrices, permitiendo que la experiencia del cliente sea tanto agradable como satisfactoria y a su vez
+              lograr que las automotrices brinden sus servicios de manera más eficiente. 
+            </p>
+          </div>
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer3" role="text"
+              aria-expanded="false" aria-controls="collapseExample">
+              2. ¿Está disponible la aplicación en mi ciudad/país?
+            </a>
+            <p id="answer3" class="collapse">
+              Car Help está disponible solo para Perú por el momento.
+            </p>
+          </div>
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer2" role="text"
+              aria-expanded="false" aria-controls="collapseExample">
+              3. ¿Qué pasa si no asisto a las revisiones programadas para ciertas fechas?
+            </a>
+            <p id="answer2" class="collapse">
+              No pasa nada, la aplicación reprogramará las fechas por sí sola, de acuerdo a la disponibilidad de la 
+              automotriz. Es cuestión del usuario confirmar las fechas dadas en la aplicación para que se pueda reservar
+              una cita.
+            </p>
+          </div>
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer4" role="text"
+              aria-expanded="false" aria-controls="collapseExample">
+              4. ¿La aplicación tiene algún costo?
+            </a>
+            <p id="answer4" class="collapse">
+              Sí, la aplicación tiene una tarifa anual solo para las automotrices que deseen usar nuestra plataforma web y entregársela a
+              sus clientes.
+            </p>
+          </div>
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer5" role="text"
+              aria-expanded="false" aria-controls="collapseExample">
+              5. ¿Ofrecen servicios de asistencia en carretera en caso de emergencias?
+            </a>
+            <p id="answer5" class="collapse">
+              Depende de la automotriz, nuestra aplicación cuenta con un botón de acción rápida en caso de emergencias, pero este solo funciona
+              si la automotriz lo ha configurado para que esté operativo; esto debido a que no todas las automotrices brindan servicios de 
+              emergencia.
+            </p>
+          </div>
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none; font-weight: bold;" data-bs-toggle="collapse" href="#answer6" role="text"
+              aria-expanded="false" aria-controls="collapseExample">
+              6. ¿Tienen opciones de financiamiento para servicios costosos?
+            </a>
+            <p id="answer6" class="collapse">
+              No, dado a que los precios pueden variar de acuerdo a cada automotriz, nuestra plataforma no pone un precio fijo para cada
+              servicio que se brinda. Es cuestión del usuario llegar a un acuerdo mutuo con la automotriz.
+            </p>
+          </div>
+          <div class="box-question-item">
+            <a style="color: black; text-decoration: none;  font-weight: bold;" data-bs-toggle="collapse" href="#answer7" role="text"
+              aria-expanded="false" aria-controls="collapseExample">
+              7. ¿Cuántos vehículos puedo registrar en la aplicación con mi cuenta?
+            </a>
+            <p id="answer7" class="collapse">
+              Se puede registrar la cantidad de vehículos que el usuario desee, mientras que sean de su propiedad. En caso desee registrar
+              el vehículo de alguien más, la aplicación no le dejará al pasar por el sistema de validación.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="AcercaDe" class="box-about">
+      <div class=" box-company-description">
+        <div class="box-company-container">
+          <div>
+            <h1>Nuestra empresa</h1>
+            <p>
+              Somos una empresa dedicada al rubro automotriz, con el objetivo de conectar a las automotrices con sus usuarios. De este modo, buscamos 
+              que la experiencia del usuario sea la mejor posible y que la automotriz brinde una atención más eficiente y logre mantener la mayor
+              cantidad de clientes.
+            </p>
+          </div>
+          <img id="company-image" src="images/Logo_Fondo.png" width="250px" alt="Logo">
+        </div>
+        <div class="box-company-container">
+          <img id="company-image" src="images/vision.png" width="230px" alt="Visión">
+          <div>
+            <h1>Visión</h1>
+            <p>
+              Nos visualizamos como líderes en la transformación digital del sector automotriz peruano, siendo reconocidos por nuestra excelencia 
+              en la entrega de soluciones tecnológicas de vanguardia.
+            </p>
+          </div>
+        </div>
+        <div class="box-company-container">
+          <div>
+            <h1>Misión</h1>
+            <p>
+              Brindar a las compañías automotrices herramientas avanzadas de gestión y comunicación 
+              que optimicen la experiencia del cliente, permitiendo un servicio más eficiente, transparente y personalizado. 
+            </p>
+          </div>
+          <img id="company-image" src="images/mision.jpeg" width="250px" height="170px" alt="Misión">
+        </div>
+      </div>
+      <div class="box-company-team">
+        <div class="box-company-team-developer">
+          <h1>Los creadores de Car Help</h1>
+          <p>
+            Aquí presentamos al equipo creador de Car Help:
+          </p>
+        </div>
+        <div style="display: flex; flex-wrap: wrap; justify-content: center; gap:30px;">        
+            <div class="team-item">
+              <img id="item-image" src="images/Carlos.png" height="250px" alt="Carlos Guimaraes" />
+              <h4>Carlos Guimaraes</h4>
+            </div>
+            <div class="team-item">
+              <img id="item-image" src="images/Manuel.png" height="250px" alt="Manuel Gutierrez" />
+              <h4>Manuel Gutierrez</h4>
+            </div>
+            <div class="team-item">
+              <img id="item-image" src="images/Miqel.jpeg" height="250px" alt="Miquel De la Piedra" />
+              <h4>Miquel De la Piedra</h4>
+          </div>       
+            <div class="team-item">
+              <img id="item-image" src="images/Juan.jpg" height="250px" alt="Juan Montes" />
+              <h4>Juan Montes</h4>
+            </div>
+            <div class="team-item">
+              <img id="item-image" src="images/Jorge.png" height="250px" alt="Jorge Altamirano" />
+              <h4>Jorge Altamirano</h4>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <button id="button-begin">Volver al inicio</button>
+    <script src="main.js"></script>
+
+    <footer style="background-color: #133548;color:white; padding: 12px;display: flex;justify-content: center;">
+      <p>
+        &copy;2024 Car Help
+      </p>
+    </footer>
+  </body>
+  
+</html>
